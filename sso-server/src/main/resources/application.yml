@@ -1,0 +1,10 @@
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    #热部署文件，页面不产生缓存，及时更新
+    cache: false
+server:
+  port: 8080
